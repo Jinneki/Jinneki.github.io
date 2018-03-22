@@ -1,0 +1,4 @@
+#images img {width: 33%; opacity: 0.5;
+              }
+#images img:hover {opacity: 1;	             
+              }
