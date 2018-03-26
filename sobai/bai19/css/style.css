@@ -1,0 +1,21 @@
+* {box-sizing: border-box;}
+#main-menu  {position: absolute;
+             font-size: 23px;
+             background-color: #dddddd;
+             padding: 0 0 0 10px; 
+	         top: 450px;
+             }
+
+img {max-width: 100%;
+     }
+.all {max-width: 1000px;
+      margin:auto;}
+h1 {text-align:center;
+	padding: 40px 0 0 0;
+
+}
+#chat {position: fixed;
+	 right: 20px;
+     bottom: 20px;
+     
+}
