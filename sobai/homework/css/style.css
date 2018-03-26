@@ -1,0 +1,31 @@
+
+h1 {font-size: 30px;
+	border:3px solid #41c7f4;
+	color: #fff;
+	background: #41c7f4;
+	border-radius: 5px;
+}
+
+h3 {
+	border:3px solid #dddddd;
+	color: #966868;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+.box {border:3px solid #dddddd;
+	color: #dddddd;
+	padding: 0 100px 0 100px;
+	margin:100px 200px 100px 200px;
+	border-radius: 5px;
+
+}
+
+h4 {font-size: 30px;
+	border:3px solid #41c7f4;
+	color: #41c7f4;
+	background: #41c7f4;
+	border-radius: 5px;
+	 
+}
+#ad {}
