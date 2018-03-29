@@ -1,0 +1,80 @@
+* {box-sizing: border-box;}
+
+img {
+	max-width: 100%
+}
+
+@keyframes name {
+	    0% {background: #56f442; color: #f44a41; }
+       50% {background: #41c4f4; color: #f49d41; }
+	  100% {background: #ebf441; color: #e841f4;}
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	animation: name 6s ease infinite;
+	border-radius: 5px;
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+	background: #ebf1bb;
+}
+
+.box {
+	float: left;
+	width: 33.33333333%;
+	height: 160px;
+	padding: 30px 3px 3px 3px;
+	overflow: hidden;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.thumb1, .thumb2 {
+	cursor: pointer;
+}
+
+.thumb1 img, .thumb2 img {
+	padding: 3px;
+}
+
+
+.thumb1 {
+	transition: all 0.5 ease;
+}
+
+.thumb1:hover {
+	transform:translate(0, -7px);
+	
+}
+
+	
+
+
+.thumb2 img {
+	transition: all 0.3s linear;
+}
+
+.thumb2:hover img {
+	transform: scale(1.1);
+	opacity: 0.5;
+}
+
+@keyframes fof {
+	0% {color: yellow; left: 0px; bottom: -40px; opacity: 1;}
+   25% {color: blue; left: 200px; bottom: -40px; opacity: 0.5;}
+   50% {color: red; left: 400px; bottom:-40px; opacity: 0.1;}
+   75% {color: gray; left: 600px; bottom: -40px; opacity: 0.5;}
+  100% {color: green; left: 800px;bottom: -40px; opacity: 1;}
+}
+
+h2 {
+	position: relative;
+	animation: fof 4s ease infinite; 
+}
