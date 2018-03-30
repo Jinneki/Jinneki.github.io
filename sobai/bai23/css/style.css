@@ -1,0 +1,82 @@
+* {box-sizing: border-box;}
+
+img {
+	max-width: 100%;
+	border-radius: 5px;
+
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+	background: #fefdda;
+	position: relative;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 20px;
+	box-shadow: 4px 4px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+@keyframes ram {
+	0% {color: #f45642;}
+   50% {color: #41f452;}
+  100% {color: #f4a641;}
+}
+
+@keyframes rem {
+	0% {color: #f4eb41;}
+   50% {color: #41dcf4;}
+  100% {color: #f441e5;}
+}
+
+
+
+
+
+#curo {
+	animation: ram 3s ease infinite;
+
+}
+
+#curt {
+	animation: rem 3s ease infinite;
+
+}
+
+@keyframes fof {
+	0% {color: #42f468; left: 0px; bottom: 0px; opacity: 1;}
+   25% {color: #4195f4; left: 200px; bottom: 0px; opacity: 0.5;}
+   50% {color: #f44170; left: 400px; bottom:0px; opacity: 0.1;}
+   75% {color: #f441d3; left: 600px; bottom: 0px; opacity: 0.5;}
+  100% {color: #f4bb41; left: 800px;bottom: 0px; opacity: 1;}
+}
+
+span {
+	position: relative;
+	animation: fof 4s ease infinite; 
+	font-size: 35px;
+}
+
+#ps {
+	position: absolute;
+	bottom: 1px;
+	right: 12px;
+}
+
+h2 {
+	position: absolute;
+	bottom: -15px;
+    right: 50px;
+}
+
+body: {
+	padding: 0;
+}
+
+canvas {
+	display: block;
+}
