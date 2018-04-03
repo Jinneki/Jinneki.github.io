@@ -1,0 +1,196 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 1200px;
+}
+
+img {
+	max-width: 100%
+}
+
+h1 {
+	padding: 20px;
+	font-size: 40px;
+	text-align: center;
+	font-family: serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px;
+	font-family: serif;
+	padding: 5px;
+	color: #264c57;
+}
+
+h3 {
+	text-align: center;
+	font-size: 38px;
+	color: #fff;
+	font-family: serif;
+	margin: 5px 0;
+}
+
+h4 {
+	text-align: center;
+	font-size: 22px;
+	color: #48245d;
+	margin: 10px 0 10px 0;
+}
+
+h5 {
+	font-size: 18px;
+	text-align: justify;
+	padding: 10px 50px 25px 50px;
+	font-family: serif;
+	color: #48245d;
+	text-align: center;
+	margin: 0px;
+}
+
+h6 {
+	text-align: center;
+	font-size: 20px;
+	font-family: serif;
+	color: #264c57;
+	margin: 5px 0;
+}
+
+
+
+
+#main-menu {
+	background: #becaf8;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+
+
+}
+
+#main-menu a {
+	padding: 15px 45px;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: serif;
+	color: #072d45;
+
+}
+
+.ram {
+	position: relative;
+}
+
+#rem {
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+}
+
+
+
+.bol {
+	float: left;
+	width: 25%;
+	padding: 0px 1px 5px 15px;
+}
+
+.thumb {
+	margin: 0 20px 30px 0;
+	transition: all 0.5s ease;
+}
+
+.thumb:hover img {
+	transform: translate(5px,0);
+	box-shadow:-3px 0px 8px 0px rgba(50, 50, 50, 0.75);
+	cursor: pointer;
+}
+
+.no3 {
+	margin: auto;
+}
+
+.no3-L {
+	float: left;
+	width: 70%
+}
+
+.bol1 {
+	padding: 0 0 0 20px;
+}
+
+.thumb1 {
+	margin: 0 145px 30px 0;
+	transition: all 0.5s ease;
+}
+
+.thumb1:hover img {
+	transform: translate(0,-5px);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.no3-R {
+	float: right;
+	width: 30%
+}
+
+.bol2{
+	padding: 3px;
+	border: 3px solid #2e4a6f;
+	margin: 20px 20px 0 0;
+	background: #f3f3f3;
+}
+
+.thumb2 {	
+	position: relative;
+
+}
+
+.thumb2 img {
+	padding: 5px 70px 10px 70px;
+}
+
+span {
+	font-size: 18px;
+	font-family: serif;
+	color: #48245d;
+	padding: 3px 30px 3px 150px;
+}
+
+.fof {
+	padding: 30px 0;	
+}
+
+#logo1 {
+	position: absolute;
+	bottom: 16%;
+	right: 12%;
+	transform: translate(-50%,-50%);
+
+}
+
+#logo2 {
+	position: absolute;
+	bottom: 6%;
+	right: 12%;
+	transform: translate(-50%,-50%);
+	
+
+}
+
+#logo3 {
+	position: absolute;
+	bottom: -4%;
+    right: 12%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+
